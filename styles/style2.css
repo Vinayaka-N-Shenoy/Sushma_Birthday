@@ -1,0 +1,27 @@
+body{
+	background-image: url("../images/Background.png");
+	background-size: 100%;
+}
+div{
+	background-image: url("../images/page2.jpg");
+	position: absolute;
+    width: 45%;
+    height: 80%;
+    left: 25%;
+    top: 13%;
+    border-radius: 4%;
+    box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.31);
+    text-align: justify;
+}
+
+p{
+	position: absolute;
+    width: 40%;
+    height: 80%;
+    left: 53%;
+    top: 5%;
+    background-color: #ffffff;
+    padding: 2%;
+    border-radius: 3%;
+    box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.31);
+}

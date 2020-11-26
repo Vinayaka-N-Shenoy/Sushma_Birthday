@@ -1,0 +1,40 @@
+body{
+	background-image: url("../images/pagebg.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+div{
+	background-image: url("../images/page1.jpg");
+	position: absolute;
+    width: 50%;
+    height: 80%;
+    left: 25%;
+    top: 13%;
+    border-radius: 4%;
+    box-shadow: 20px 20px 10px  rgba(0, 0, 0, 0.31);
+    transition: 0.3s;
+}
+div:hover{
+	transition: 1s;
+}
+
+button{
+	position: absolute;
+    width: 20%;
+    height: 5%;
+    left: 35%;
+    top: 90%;
+    border-radius: 10px;
+    border-color: transparent;
+    background-color: #e95354;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+/*
+a:hover{
+	color: grey;
+}*/
